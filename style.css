@@ -1,0 +1,78 @@
+h1, h2, h3, h4, h5 {
+  text-align: center;
+}
+
+body {
+  width: auto;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+}
+
+header, section {
+  width: auto;
+  display: flex;
+  flex-flow: column nowrap;
+}
+
+section {
+  margin-top: 40px;
+}
+
+footer {
+  height: 30px;
+  padding: 30px;
+}
+.container-fluid {
+  width: auto;
+}
+
+.jumbotron {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+}
+.jumbotron-picture {
+  margin: auto;
+}
+.about-me {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+}
+.picture-rows {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+
+}
+.profile {
+  margin: auto;
+  width: 206px;
+  height: 220px;
+  padding: 3px;
+}
+.profile-picture {
+  margin: auto;
+  width: 200px;
+}
+
+.about-me {
+  margin-top: 30px;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+.image-width {
+  max-width: 100%;
+  max-height: 200px;
+  margin: auto;
+}
+
+.picture-panel {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  margin: 5px;
+  padding: 5px;
+}
